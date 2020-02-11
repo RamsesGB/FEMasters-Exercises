@@ -5,6 +5,42 @@ let nameImprover = (name, adj) => {
   return `Captain ${name} Mc ${adj} pants`;
 };
 
+//functions examples
+
+function timeRemaining(timeElapsed, endTime) {
+  return endTime - timeElapsed;
+}
+
+let left = timeRemaining(49,421)
+
+let favoriteBooks = []
+
+function addFavoriteBook(bookName) {
+  if (!bookName.includes("Great")) {
+    favoriteBooks.push(bookName)
+  }
+  else {
+    console.log("error")
+  }
+}
+
+function printFavoriteBooks(){
+  for (let i = 0; i < favoriteBooks.length; i++) {
+    console.log(`Favorite Books: ${favoriteBooks[i]}`)
+  }
+}
+
+/*
+addFavoriteBook("A Song of Ice and Fire");
+addFavoriteBook("The Great Gatsby");
+addFavoriteBook("Crime & Punishment");
+addFavoriteBook("Great Expectations");
+addFavoriteBook("You Don't Know JS");
+printFavoriteBooks();
+
+*/
+
+
 // If & Else (Examples)
 
 let age = 39;
