@@ -25,3 +25,11 @@ var teacher = "Kyle"
 console.log(teacher); // Kyle
 
 // Closure = Closure is when a function "remembers" the variables outside of it, even if you pass that function elsewhere
+
+//Interview answer
+// Closure is when a function "remembers" its lexical scope even when the function is executed outside that lexical scope.
+
+//- Closure is not "capturing a value" it is perserving access to a variable 
+
+//----------- Modules -----------------------
+// Modules encapsulate data and behavior (methods) together. The state (data) of a module is held by its methods via closure
